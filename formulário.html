@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pókemon</title>
+</head>
+<body>
+    <form>
+    <h2>Digite o número do Pókemon de acordo com o Pokedex Nacional</h2>
+
+    <main>
+
+<section id="campo-numero">
+    <label for="numero">Número</label>
+    <input type="number" name="numero" id="campo-numero" step="1" min="1" max="255">
+</section>
+<br/>
+<br/>
+<section id="nome-pokemon">
+    <label for="nome-do-pokemon">Nome do Pókemon</label>
+    <input type="text">
+</section>
+<br/>
+<br/>
+<fieldset>
+    <legend>Tipo 1 do Pókemon</legend>
+    <div>
+        <ul>
+            <li>
+                <input type="radio" name="tipo1" id="Aço" checked>
+                <label for="Aço">Aço</label>
+            </li>
+      
+            <li>
+                <input type="radio" name="tipo1" id="Água" checked>
+                <label for="Água">Água</label>
+            </li>
+   
+            <li>
+                <input type="radio" name="tipo1" id="Dragão" checked>
+                <label for="Dragão">Dragão</label>
+            </li>
+  
+            <li>
+                <input type="radio" name="tipo1" id="Elétrico" checked>
+                <label for="Elétrico">Elétrico</label>
+            </li>
+     
+            <li>
+                <input type="radio" name="tipo1" id="Fada" checked>
+                <label for="Fada">Fada</label>
+            </li>
+
+            <li>
+                <input type="radio" name="tipo1" id="Fantasma" checked>
+                <label for="Fantasma">Fantasma</label>
+            </li>
+  
+            <li>
+                <input type="radio" name="tipo1" id="Fogo" checked>
+                <label for="Fogo">Fogo</label>
+            </li>
+ 
+            <li>
+                <input type="radio" name="tipo1" id="Gelo" checked>
+                <label for="Gelo">Gelo</label>
+            </li>
+
+            <li>
+                <input type="radio" name="tipo1" id="Inseto" checked>
+                <label for="Inseto">Inseto</label>
+            </li>
+        </ul>
+        </div>
+</fieldset>
+<br/>
+<br/>
+<fieldset>
+    <legend>Tipo 2 do Pókemon</legend>
+    <div>
+        <ul>
+            <li>
+                <input type="radio" name="tipo1" id="Lutador" checked>
+                <label for="Lutador">Lutador</label>
+            </li>
+
+            <li>
+                <input type="radio" name="tipo1" id="Normal" checked>
+                <label for="Normal">Normal</label>
+            </li>
+
+            <li>
+                <input type="radio" name="tipo1" id="Pedra" checked>
+                <label for="Pedra">Pedra</label>
+            </li>
+
+            <li>
+                <input type="radio" name="tipo1" id="Planta" checked>
+                <label for="Planta">Planta</label>
+            </li>
+
+            <li>
+                <input type="radio" name="tipo1" id="Psíquico" checked>
+                <label for="Psíquico">Psíquico</label>
+            </li>
+  
+            <li>
+                <input type="radio" name="tipo1" id="Sombrio" checked>
+                <label for="Sombrio">Sombrio</label>
+            </li>
+ 
+            <li>
+                <input type="radio" name="tipo1" id="Terra" checked>
+                <label for="Terra">Terra</label>
+            </li>
+   
+            <li>
+                <input type="radio" name="tipo1" id="Venenoso" checked>
+                <label for="Venenoso">Venenoso</label>
+            </li>
+
+            <li>
+                <input type="radio" name="tipo1" id="Voador" checked>
+                <label for="Voador">Voador</label>
+            </li>
+        </ul>
+    </div>
+</fieldset>
+<br/>
+<br/>
+<section id="total">
+    <label for="total">Total</label>
+    <input type="number" name="total" id="total">
+</section>
+<br/>
+<br/>
+<section id="HP">
+    <label for="HP">HP</label>
+    <input type="number" name="HP" id="HP" step="1" min="1" max="255">
+</section>
+<br/>
+<br/>
+<section id="Ataque">
+    <label for="Ataque">Ataque</label>
+    <input type="number" name="Ataque" id="Ataque">
+</section>
+<br/>
+<br/>
+<section id="Defesa">
+    <label for="Defesa">Defesa</label>
+    <input type="number" name="Defesa" id="Defesa">
+</section>
+<br/>
+<br/>
+<section id="ataque_especial">
+    <label for="ataque_especial">Ataque Especial</label>
+    <input type="number" name="ataque_especial" id="ataque_especial">
+</section>
+<br/>
+<br/>
+<section id="defesa_especial">
+    <label for="defesa_especial">Defesa Especial</label>
+    <input type="number" name="defesa_especial" id="defesa_especial">
+</section>
+<br/>
+<br/>
+<section id="velocidade">
+    <label for="velocidade">Velocidade</label>
+    <input type="number" name="velocidade" id="velocidade">
+</section>
+<br/>
+<br/>
+<label for="Geração">Geração</label>
+<select name="Geração" id="Geração">    
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+</select>
+<br/>
+<br/>
+<fieldset>
+    <legend>Pókemon é lendário?</legend>
+    <div>
+        <ul>
+            <li>
+                <input type="radio" name="lendário" id="lendário" checked>
+                <label for="Sim">Sim</label>
+            </li>
+
+            <li>
+                <input type="radio" name="lendário" id="lendário" checked>
+                <label for="Não">Não</label>
+            </li>
+        </ul>
+    </div>
+</fieldset>
+<br/>
+<br/>
+<label for="cor">Cor</label>
+<select name="cor" id="cor">    
+    <option value="amarelo">Amarelo</option>
+    <option value="azul">Azul</option>
+    <option value="branco">Branco</option>
+    <option value="cinza">Cinza</option>
+    <option value="marrom">marrom</option>
+    <option value="preto">preto</option>
+    <option value="rosa">rosa</option>
+    <option value="roxo">Roxo</option>
+    <option value="verde">verde</option>
+    <option value="vermelho">vermelho</option>
+</select>
+<br/>
+<br/>
+<section id="altura_m">
+    <label for="altura_m">Altura</label>
+    <input type="number" name="altura_m" id="altura_m">
+</section>
+<br/>
+<br/>
+<section id="peso_kg">
+    <label for="peso_kg">Peso</label>
+    <input type="number" name="peso_kg" id="peso_kg">
+</section>
+<br/>
+<br/>
+<section id="taxa-captura">
+    <label for="taxa-captura">Taxa</label>
+    <input type="number" name="taxa-captura" id="taxa-captura" step="1" min="1" max="255">
+</section>
+    </main>
+</form>
+</body>
+</html>
